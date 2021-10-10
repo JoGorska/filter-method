@@ -31,3 +31,6 @@ let students = [
 // Assign it a value from using the filter method on the students array
 // Use a single line arrow function within the filter method (should not use a return statement)
 // Log out the variable topMaths
+
+const topMaths = students.filter(student => student.results.maths >= 90);
+console.log(topMaths);
